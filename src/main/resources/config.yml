@@ -1,0 +1,33 @@
+#This default list of players are blacklist people on the site www.blacklistmc.net !
+#This plugins and really as a preventive measure for the blacklist it and lower for the general public and prevent some UUID and PSEUDOS from connecting to your server !
+blacklist:
+  enable: true
+  #if your server and cracking uuid are useless it is necessary that it is based on the pseudos !
+  UUID:
+    - "9ecb7743-441e-4106-9ded-9f79c1b50248"
+    - "1ce777e9-538b-3b9d-ae2f-616adc4e10c0"
+    - "834e9f39-d351-473c-aa47-896c136b42eb"
+    - "8dd3091f-6151-4b9c-bbd4-f2d6cc3e0a78"
+    - "25b3a380-16a6-4234-a133-95578b613d75"
+    - "da05a44f-6c1d-4b39-9064-e90e7a0aebac"
+    - "bf33402e-8c0b-4798-b92f-8bd9b73f39f4"
+    - "5a3454ab-c373-46a1-abc6-3502ff033bfc"
+    - "a01a68e3-7c60-4baf-b4d6-2ee3ac84fe1f"
+    - "155e3b82-a6c8-4286-a07a-072ef7be5a87"
+    - "7be20348-76dc-4d8d-bf11-c1e18689a6ca"
+    - "da749607-d3ea-4407-a229-54d6233da1d4"
+  playername:
+    - "DenisMihnuk"
+    - "hugo590"
+    - "PabCraftYT"
+    - "Warnight"
+    - "Ph4ntom"
+    - "xylopale"
+    - "Neodor"
+    - "MatanteToupette"
+    - "NAVENN"
+    - "Varjo_Hopkins"
+    - "ShadoBreak"
+    - "playgamme"
+    - "ImRushWay"
+  kickmessage: "&4Tu est un bandits présent sur le jeux Minecraft! On ne veut pas de toi !"

@@ -1,0 +1,10 @@
+name: Blacklist
+version: ${project.version}
+main: fr.blacklistmc.blacklist.Blacklist
+api-version: 1.14.4
+author: [DenisMihnuk]
+website: www.blacklistmc.net
+commands:
+  blacklist:
+    description: Main and Core Commands
+    permission: blacklist.use
