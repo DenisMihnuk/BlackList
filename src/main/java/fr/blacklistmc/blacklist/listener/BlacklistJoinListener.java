@@ -19,7 +19,8 @@ public class BlacklistJoinListener implements Listener {
     @EventHandler
     public void onPreJoin(AsyncPlayerPreLoginEvent event){
         String uuid = event.getUniqueId().toString();
-        if (main.blackListPlayer.contains(uuid)){
+        String player = event.getName();
+        if (main.blackListPlayer.contains(uuid) || main.blackListPlayer.contains(player)){
             event.disallow(AsyncPlayerPreLoginEvent.Result.KICK_OTHER, ChatColor.translateAlternateColorCodes('&', main.getConfig().getString("blacklist.kickmessage")));
         }
 
